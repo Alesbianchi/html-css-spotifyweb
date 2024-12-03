@@ -177,6 +177,15 @@ ul .main-list{
     background-color: black;
 }
 
+.contenitore-controller{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3%;
+    /* DEBUG */
+    border: 1px solid black;
+    height: 200px;
+}
 
 
 
