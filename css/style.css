@@ -8,6 +8,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 div{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+h2, h3, h1{
     color: #fff;
 }
 
@@ -26,6 +31,7 @@ div{
     flex-direction: column;
     /* DEBUG */
     background-color: black;
+    
 }
 
 /* contenuti di navigazione  */
@@ -34,6 +40,7 @@ nav{
     flex-direction: column;
     color: #fff;
     text-align:start;
+    
 }
 nav img{
     width: 50%;
@@ -63,7 +70,7 @@ nav img{
 
 .listone{
     list-style: none;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
     padding-top: 5%;
 }
 
@@ -119,7 +126,7 @@ nav img{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-right: 2%;
     line-height: 1;
 }
