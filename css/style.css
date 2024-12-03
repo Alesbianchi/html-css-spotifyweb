@@ -58,10 +58,9 @@ nav img{
     padding-left: 5%;
 }
 
-ul li{
+.listone{
     list-style: none;
     color: #fff;
-    
     padding-top: 5%;
 }
 
@@ -97,29 +96,77 @@ ul li{
 }
 
 .contenitore-block{
-    height: 50px;
+    height: 100px;
     /* DEBUG */
     border: 1px solid black;
+}
+#button{
+    border: none;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+.contenitore-block a{
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 999999999px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    width: auto;
+    flex-wrap: wrap; 
+    color: #fff;
+    border: 1px solid white;
 }
 .contenitore-recently{
     height: 50px;
     /* DEBUG */
     border: 1px solid black;
 }
+
+ul .main-list{
+    display: inline;
+}
+
+
 .contenitore-mainchoice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3%;
     /* DEBUG */
     border: 1px solid black;
     height: 200px;
 }
 .contenitore-created{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 3%;
     /* DEBUG */
     border: 1px solid black;
     height: 200px;
 }
 .contenitore-popolari{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 3%;
     /* DEBUG */
     border: 1px solid black;
     height: 200px;
+}
+
+.col{
+    margin-bottom: 20px;
+    /* DEBUG */
+    background-color: aqua;
+    height: 100px;
 }
 
 
