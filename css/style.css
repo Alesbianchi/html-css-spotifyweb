@@ -1,0 +1,56 @@
+/* regole generali di pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* macro blocco principale */
+#wrapper{
+    display: flex;
+    height: calc(100vh - 150px);
+    /* DEBUG */
+    background-color: rgb(241, 238, 238);
+
+}
+
+#wrapper nav{
+    height: 100%;
+    width: 250px;
+    /* DEBUG */
+    background-color: aquamarine;
+}
+
+/* blocco di contenuto principale */
+#wrapper main{
+    overflow: auto;
+    height: 100%;
+    width: calc(100% - 250px);
+    /* DEBUG */
+    background-color: brown;
+}
+
+
+/* regole player/controller */
+#player{
+    height: 150px;
+    background-color: black;
+}
+
+
+
+
+/* versione XS */
+@media screen and (max-width 280px) {
+    #wrapper main{
+        width: 80px;
+       
+    }
+    
+    /* blocco di contenuto principale */
+    #wrapper nav{
+        width: calc(100% - 80px);
+        
+    }
+
+}
