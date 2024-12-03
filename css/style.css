@@ -21,6 +21,28 @@
     background-color: aquamarine;
 }
 
+/* contenuti di navigazione  */
+nav img{
+    width: 50%;
+}
+
+.contenitore-link{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+}
+
+.contenitore-link img{
+    padding-bottom: 10%;
+    padding-left: 3%;
+}
+.contenitore-link a {
+   padding: 3%;
+}
+
+/* contenuti playlist */
+
+
 /* blocco di contenuto principale */
 #wrapper main{
     overflow: auto;
@@ -29,6 +51,7 @@
     /* DEBUG */
     background-color: brown;
 }
+
 
 
 /* regole player/controller */
@@ -41,10 +64,9 @@
 
 
 /* versione XS */
-@media screen and (max-width 280px) {
+@media screen and (max-width 480px) {
     #wrapper main{
-        width: 80px;
-       
+        width: 80px;   
     }
     
     /* blocco di contenuto principale */
