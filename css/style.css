@@ -170,6 +170,10 @@ li:hover{
     color: #fff;
 }
 
+#button:hover {
+    transform: scale(1.1); 
+  }
+
 .contenitore-recently ul {
     display: flex;  
     flex-wrap: wrap;         
