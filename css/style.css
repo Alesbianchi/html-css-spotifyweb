@@ -286,7 +286,7 @@ img{
 
 /* regole player/controller */
 #player{
-    /* height: 150px; */
+    /*height: 150px; */
     background-color: black;
 }
 
@@ -303,6 +303,7 @@ img{
     display: flex;
     justify-content: flex-start;
     white-space: nowrap;
+    max-width: 30%;
     
 }
 
@@ -322,8 +323,7 @@ img{
 }
 
 .icon-container.play {
-    display: flex;
-    justify-content: space-between; 
+    display: inline;
     width: 100%; 
 }
 .play-icon {
@@ -338,9 +338,62 @@ img{
 }
 
 
+.volume-container {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Etichetta per il volume */
+.volume-label {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Contenitore wrapper per la barra del volume */
+.volume-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/* Barra del volume */
+.volume-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #333;  
+    border-radius: 5px;
+    
+}
+
+/* Livello del volume (colore che simula la parte "riempita" della barra) */
+.volume-level {
+    width: 30%;  
+    height: 100%;
+    background-color: #fff;  
+    border-radius: 5px;
+}
+
+
+.time {
+    font-size: 12px;
+    color: white;
+}
+.time-right{
+    padding-left: 5%;
+}
+.time-left{
+    padding-right: 5%;
+}
+
+
 .name{
     display: flex;
     justify-content: center;
+    max-width: 30%;
 }
 
 .fa-heart{
@@ -427,6 +480,8 @@ img{
     .main-list{
         flex-wrap: wrap;
     }
+
+
 
     #wrapper main {
         width: 100%; 
