@@ -172,7 +172,27 @@ li:hover{
 
 #button:hover {
     transform: scale(1.1); 
-  }
+}
+
+.first-active{
+    border-left: 2px solid green;
+}
+
+.contenitore-link .first-active i {
+    color: #fff;
+}
+
+.only-white{
+    color: #fff;
+}
+
+.second-active{
+    border-bottom: 2px solid green;
+}
+.main-list .second-active{
+    color: #fff;
+}
+
 
 .contenitore-recently ul {
     display: flex;  
@@ -220,8 +240,8 @@ a {
 }
 
 img{
-    width: 80%;
-    background-size:cover ;
+    max-width: 100%;
+    background-size:contain ;
 
 }
 .img-hover{
@@ -230,7 +250,11 @@ img{
 .image-container {
     position: relative; 
     overflow: hidden;
+    display: flex;
+    margin: 5%;
 }
+
+
 .round-image {
     width: 200px;         
     height: 200px;        
