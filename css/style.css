@@ -491,7 +491,16 @@ img{
 
 }
 
+
 /* Versione smartphone */
+@media screen and (max-width: 580px) {
+    .col{
+        width: 50%;
+    }
+}
+
+
+/* Versione smartphone xs */
 @media screen and (max-width: 480px) {
     .contenitore-mainchoice{
         flex-wrap: wrap;
