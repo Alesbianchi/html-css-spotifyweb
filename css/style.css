@@ -43,7 +43,7 @@ nav{
     
 }
 nav img{
-    width: 50%;
+    width: 50%;  
 }
 
 .contenitore-link{
@@ -222,6 +222,8 @@ img{
     margin-bottom: 20px;
     text-align: center;
     width: 20%;
+    
+    align-items: center;
     /* DEBUG */
     /* background-color: aqua;
     height: 100px; */
@@ -232,24 +234,76 @@ img{
 
 /* regole player/controller */
 #player{
-    height: 150px;
+    /* height: 150px; */
     background-color: black;
 }
 
 .contenitore-controller{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding-top: 3%;
     /* DEBUG */
     border: 1px solid black;
-    height: 200px;
+    /* height: 200px; */
+}
+
+.brano{
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+    
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;  
+    margin-left: 10px;  
+    font-size: 10px;
+}
+.icon-container {
+    display: flex;
+    flex-direction: row;  
+    margin-left: 20%; 
+     
+}
+.icon-container.play {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+.play-icon {
+    font-size: 50px; 
+}
+.icon-container i {
+    font-size: 20px; 
+}
+
+.last-icon{
+    font-size: 10px;
+}
+
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-heart{
+    margin-right: 30%;
+}
+.fa-desktop{
+    margin-right: 30%;
+}
+
+.img-footer{
+    width: 50%;
+
 }
 
 
 
 /* versione XS */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 280px) {
     #wrapper nav{
         width: 80px;   
     }
@@ -263,4 +317,15 @@ img{
         display: none;
     }
 
+}
+
+/* versione tablet */
+@media screen and (max-width: 769px) {
+    .contenitore-mainchoice{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .col{
+        width: 25%;
+    }
 }
