@@ -20,7 +20,7 @@ h2, h3, h1{
 /* macro blocco principale */
 #wrapper{
     display: flex;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 80px);
     /* DEBUG */
     /* background-color: rgb(241, 238, 238); */
 }
@@ -57,6 +57,7 @@ nav img{
 .contenitore-lista{
     padding-bottom: 10%;
     padding-left: 5%; 
+    overflow: auto;
 }
 .fa-square-plus{
     font-size: 30px;
@@ -178,6 +179,10 @@ li:hover{
 }
 .fa-regular:hover{
     color: #fff;
+}
+
+.logo-none{
+    display: none; 
 }
 
 
@@ -343,14 +348,17 @@ img{
 
 /* regole player/controller */
 #player{
-    /* height: 150px; */
+    height: 80px; 
     background-color: black;
+    display: flex;
+    
 }
 
 .contenitore-controller{
     display: flex;
     justify-content: space-between;
     padding-top: 3%;
+    width: 100%;
     /* DEBUG */
     border: 1px solid black;
     /* height: 200px; */
@@ -360,7 +368,7 @@ img{
     display: flex;
     justify-content: flex-start;
     white-space: nowrap;
-    max-width: 30%;
+    max-width: 10%;
     
 }
 
@@ -510,7 +518,8 @@ img{
         width: 50%;
     }
     #wrapper nav{
-        width: 60px;   
+        width: 60px;
+   
     }
     
     /* blocco di contenuto principale */
@@ -539,6 +548,17 @@ img{
     .contenitore-logo{
         display: none;
     }
+    .logo-none{
+        display: block;
+        width: 100%;
+        margin-left: 50%;
+        
+    }
+
+    .first-active{
+        border-left: none;
+    }
+
     .col{
         max-width: 50%;
     }
