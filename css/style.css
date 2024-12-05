@@ -186,6 +186,7 @@ li:hover{
 }
 
 
+
 .first-active{
     border-left: 2px solid green;
 }
@@ -204,6 +205,8 @@ li:hover{
 .main-list .second-active{
     color: #fff;
 }
+
+
 
 
 .contenitore-recently ul {
@@ -431,15 +434,19 @@ img{
     height: 5px;
     background-color: #333;  
     border-radius: 5px;
-    
 }
+
+
 
 /* Livello del volume (colore che simula la parte "riempita" della barra) */
 .volume-level {
-    width: 30%;  
+    width: 40%;  
     height: 100%;
     background-color: #fff;  
     border-radius: 5px;
+}
+.volume-level:hover{
+    background-color: green ;
 }
 
 
