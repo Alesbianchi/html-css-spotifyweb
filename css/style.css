@@ -183,6 +183,9 @@ li:hover{
 .fa-regular:hover{
     color: #fff;
 }
+.listone:hover i{
+    color: #fff;
+}
 
 .logo-none{
     display: none; 
@@ -521,7 +524,7 @@ img{
         object-fit: cover;    
     }
     .img-footer{
-        max-width: 100&;
+        max-width: 100%;
     }
 
 
